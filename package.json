@@ -1,8 +1,8 @@
 {
-  "name": "dapperdiscordbot",
+  "name": "delubrumsavagebot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +18,8 @@
   "homepage": "https://github.com/timlaroc/DapperDiscordBot#readme",
   "dependencies": {
     "discord.js": "^12.5.3",
-    "fs": "0.0.1-security"
+    "dotenv": "^10.0.0",
+    "fs": "0.0.1-security",
+    "jwt-decode": "^3.1.2"
   }
 }
